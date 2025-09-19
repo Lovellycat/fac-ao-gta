@@ -47,4 +47,5 @@ async def setup(ctx):
     view.add_item(button)
     await ctx.send("👇 Clique para criar seu chat privado:", view=view)
 
-bot.run(os.getenv("DISCORD_TOKEN"))
+import os
+bot.run(os.getenv(1418590512314843250))
